@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    display: flex;
+    width: 100vw;
+    height: fit-content;
+    margin: 0;
+    position: relative;    
+}
+
+figure{
+    /* background-color: blueviolet; */
+    /* display: inline; */
+    width: 30%;
+    height: fit-content;
+    margin: 0;
+}
+
+.card-area{
+    /* background-color: aqua; */
+    width:40% ;
+    height:fit-content ;
+    position: absolute;
+    top:20%;
+    left:10%;
+    line-height: 60px;
+}
+#card-logo{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+#card-backside{
+    float: right;
+}
+.card-details{
+    color: white;
+    text-transform: uppercase;
+}
+#card-info-num{
+    position:absolute;
+    top: 150px;
+    left: 50px;
+    font-size: 30px;
+    letter-spacing: 4px;
+    /* color: blue; */
+}
+#card-info-name{
+    position:absolute;
+    top:200px;
+    left: 50px;
+    font-size: 15px;
+    color: lightgray;
+}
+#card-info-expiry{
+    position:absolute;
+    top:200px;
+    left: 350px;
+    font-size: 15px;
+    color: lightgrey;
+}
+.info-form{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+ form{ 
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 30px;
+    /* margin: 10px; */
+    /* align-self: center; */
+} 
+ form label{ 
+    margin-top: 10px;
+} 
+input{
+    padding: 5px;
+    font-size: 15px;
+    border-radius:5px;
+}
+#expiry-date{
+    width: 60px;
+}
+label{
+    color: hsl(279, 6%, 55%);
+    font-weight: 800;
+}
+button{
+    margin-top: 25px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: hsl(278, 68%, 11%);
+}
